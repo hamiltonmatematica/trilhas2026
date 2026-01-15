@@ -31,7 +31,7 @@ const App: React.FC = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
               <CategorySection
                 type="sisu"
                 title="Categoria 1: Alunos Sisu"
@@ -51,6 +51,16 @@ const App: React.FC = () => {
                 buttonLabel="INSCREVER NA TURMA DIAGNÓSTICA"
                 buttonColor="bg-amber-800"
                 icon="🟤"
+              />
+
+              <CategorySection
+                type="redacao"
+                title="Categoria 3: Trilha da Redação"
+                description="Domine as competências de escrita exigidas no ENEM e Unimontes."
+                highlight="Correções detalhadas e personalizadas com o prof. Alysson. Envie suas redações e receba o feedback necessário para alcançar a nota 1000."
+                buttonLabel="QUERO ESSA TRILHA"
+                buttonColor="bg-rose-700"
+                icon="✍️"
               />
             </div>
           </section>

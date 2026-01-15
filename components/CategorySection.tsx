@@ -2,7 +2,7 @@
 import React from 'react';
 
 interface CategoryProps {
-  type: 'sisu' | 'preparacao';
+  type: 'sisu' | 'preparacao' | 'redacao';
   title: string;
   description: string;
   highlight: string;
@@ -14,11 +14,17 @@ interface CategoryProps {
 
 const CategorySection: React.FC<CategoryProps> = ({ title, description, highlight, buttonLabel, buttonColor, icon, link }) => {
   const isSisu = buttonColor.includes('green');
+  const isRedacao = buttonColor.includes('rose') || buttonColor.includes('red');
+
+  // Determine background blur color based on type
+  let blurClass = 'bg-amber-900';
+  if (isSisu) blurClass = 'bg-green-500';
+  if (isRedacao) blurClass = 'bg-rose-500';
 
   return (
     <div className={`relative p-8 md:p-12 rounded-2xl overflow-hidden transition-all duration-500 group border border-white/5 hover:border-white/20 bg-ebony shadow-2xl`}>
       {/* Brand shape overlay in background of card */}
-      <div className={`absolute top-0 right-0 w-32 h-32 -mr-8 -mt-8 rounded-full blur-3xl opacity-20 ${isSisu ? 'bg-green-500' : 'bg-amber-900'}`}></div>
+      <div className={`absolute top-0 right-0 w-32 h-32 -mr-8 -mt-8 rounded-full blur-3xl opacity-20 ${blurClass}`}></div>
 
       <div className="relative z-10 flex flex-col h-full">
         <div className="text-4xl mb-6">{icon}</div>
