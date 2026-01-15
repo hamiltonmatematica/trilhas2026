@@ -17,10 +17,10 @@ const App: React.FC = () => {
 
       <div className="relative z-10">
         <Header />
-        
+
         <main>
           <Hero />
-          
+
           <section id="trilhas" className="py-20 px-4 max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="font-anton text-4xl md:text-6xl uppercase tracking-wider mb-4">
@@ -32,7 +32,7 @@ const App: React.FC = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <CategorySection 
+              <CategorySection
                 type="sisu"
                 title="Categoria 1: Alunos Sisu"
                 description="Para os alunos que vão iniciar a trajetória das vagas pelo Sisu."
@@ -40,9 +40,10 @@ const App: React.FC = () => {
                 buttonLabel="ENTRAR NO GRUPO SISU"
                 buttonColor="bg-green-600"
                 icon="🟢"
+                link="https://chat.whatsapp.com/HCt8dNnW8ur48VdrcFNXVV"
               />
-              
-              <CategorySection 
+
+              <CategorySection
                 type="preparacao"
                 title="Categoria 2: Preparação 2026"
                 description="Para os alunos que vão começar a sua preparação para os vestibulares de 2026…"

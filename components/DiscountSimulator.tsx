@@ -12,8 +12,8 @@ const DiscountSimulator: React.FC = () => {
 
       <div className="max-w-5xl mx-auto relative z-10 grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="font-anton text-5xl md:text-7xl uppercase leading-none text-white mb-6">
-            Simulador de <br/> <span className="text-ebony">Descontos</span>
+          <h2 className="font-anton text-4xl md:text-6xl uppercase leading-none text-white mb-6">
+            Seletiva por <br /> Desempenho das <br /> <span className="text-ebony">Notas Enem</span>
           </h2>
           <p className="font-inter text-xl text-white/90 mb-8 font-semibold">
             A sua nota no Enem pode te ajudar a garantir uma bolsa de até <span className="text-ebony bg-white px-2 py-1 text-2xl font-black">80%</span> nas nossas turmas do Áurea em 2026!
@@ -33,10 +33,10 @@ const DiscountSimulator: React.FC = () => {
               Acesse nosso simulador oficial
             </h3>
           </div>
-          
-          <a 
-            href="#" 
-            target="_blank" 
+
+          <a
+            href="https://delicategiantpanda-n8n.cloudfy.live/form/3d4c98de-ad6c-49ec-ac52-1a984cd83bfe"
+            target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-tangerine hover:bg-opacity-90 text-white font-anton text-2xl py-6 rounded-sm transition-all active:scale-95 shadow-lg shadow-tangerine/20 text-center flex items-center justify-center gap-3 group"
           >
@@ -47,7 +47,7 @@ const DiscountSimulator: React.FC = () => {
           </a>
 
           <p className="text-gray-500 text-xs mt-6 font-inter text-center uppercase tracking-tighter">
-            Você será redirecionado para o nosso portal de matrículas
+            Você será redirecionado para o nosso portal de matrículas (você pode usar a nota do Enem dos últimos 3 anos)
           </p>
         </div>
       </div>

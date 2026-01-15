@@ -9,10 +9,10 @@ const Footer: React.FC = () => {
           <div className="flex items-center gap-3 justify-center md:justify-start mb-6">
             <div className="w-8 h-8 flex items-center justify-center">
               <svg viewBox="0 0 100 100" className="w-full h-full text-tangerine fill-current">
-                  <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" strokeWidth="4" />
-                  <circle cx="50" cy="65" r="25" fill="none" stroke="currentColor" strokeWidth="4" />
-                  <circle cx="50" cy="75" r="10" fill="none" stroke="currentColor" strokeWidth="4" />
-                  <line x1="50" y1="5" x2="50" y2="95" stroke="currentColor" strokeWidth="4" />
+                <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" strokeWidth="4" />
+                <circle cx="50" cy="65" r="25" fill="none" stroke="currentColor" strokeWidth="4" />
+                <circle cx="50" cy="75" r="10" fill="none" stroke="currentColor" strokeWidth="4" />
+                <line x1="50" y1="5" x2="50" y2="95" stroke="currentColor" strokeWidth="4" />
               </svg>
             </div>
             <span className="font-outfit text-3xl lowercase font-medium">áurea</span>
@@ -26,9 +26,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col gap-4 items-center md:items-start">
             <p className="text-white">Siga-nos</p>
             <div className="flex gap-4">
-              <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-500 hover:text-white hover:border-white transition-all cursor-pointer">IG</div>
-              <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-500 hover:text-white hover:border-white transition-all cursor-pointer">YT</div>
-              <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-500 hover:text-white hover:border-white transition-all cursor-pointer">WA</div>
+              <a href="https://www.instagram.com/aureavestibulares" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-gray-500 hover:text-white hover:border-white transition-all cursor-pointer">IG</a>
             </div>
           </div>
         </div>
