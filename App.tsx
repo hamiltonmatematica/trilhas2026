@@ -62,6 +62,7 @@ const App: React.FC = () => {
                 buttonLabel="QUERO ESSA TRILHA"
                 buttonColor="bg-rose-700"
                 icon="✍️"
+                link="https://delicategiantpanda-n8n.cloudfy.live/form/0e664855-f588-44f7-b605-dfd626a8a1d5"
               />
             </div>
           </section>
