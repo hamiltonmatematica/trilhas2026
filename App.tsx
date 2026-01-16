@@ -40,7 +40,7 @@ const App: React.FC = () => {
                 buttonLabel="ENTRAR NO GRUPO SISU"
                 buttonColor="bg-green-600"
                 icon="🟢"
-                link="https://chat.whatsapp.com/HCt8dNnW8ur48VdrcFNXVV"
+                link="https://delicategiantpanda-n8n.cloudfy.live/form/58cb0b2c-87c9-4143-9e7e-d68f947ed37d"
               />
 
               <CategorySection
@@ -51,6 +51,7 @@ const App: React.FC = () => {
                 buttonLabel="INSCREVER NA TURMA DIAGNÓSTICA"
                 buttonColor="bg-amber-800"
                 icon="🟤"
+                link="https://delicategiantpanda-n8n.cloudfy.live/form/711176d6-24c6-45fc-b3c4-dde9bcc4495b"
               />
 
               <CategorySection
